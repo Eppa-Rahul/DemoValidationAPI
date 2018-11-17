@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+
+      <Appenders>
+      <!-- Appender`1 -->
+
+        
+ 		<!-- Appender`2 -->
+        <Console name="console" target="SYSTEM_OUT">
+            <PatternLayout   pattern="[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1} - %msg%n" />
+        </Console> 
+    </Appenders>
+    
+    <Loggers>
+		<!--  Log`2  -->
+        <!-- Log`1 -->
+        <Root level="debug" additivity="false">
+            <appender-ref ref="console" /> <!-- console -->
+        </Root>
+    </Loggers> 
+    
+
+    
+</Configuration>
